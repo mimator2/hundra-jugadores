@@ -8,5 +8,6 @@ Web: https://mimator2.github.io/hundra-jugadores/
 |---|---|
 | Biel Estruel | https://mimator2.github.io/hundra-jugadores/biel-estruel/ |
 | Alex Muñoz | https://mimator2.github.io/hundra-jugadores/alex-munoz/ |
+| Aleix Camarasa | https://mimator2.github.io/hundra-jugadores/aleix-camarasa/ |
 
-Cada carpeta contiene la página del jugador (`index.html`), su vídeo de acciones, la foto, los escudos y el CV en PDF.
+Cada carpeta contiene la página del jugador (`index.html`), su vídeo de acciones (si lo hay), la foto, los escudos y el CV en PDF.
