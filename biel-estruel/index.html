@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Biel Estruel · Defensa central · Hundra Sports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0e0e0e;--panel:#151a21;--navy:#1f3e5b;--blue:#5b9bd5;--sky:#8cc0ef;--ink:#f4f6f8;--mute:#9aa7b4;--line:rgba(140,192,239,.18)}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:'Questrial',system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0;background:radial-gradient(900px 500px at 85% -10%,rgba(31,62,91,.55),transparent 60%),radial-gradient(700px 500px at -10% 110%,rgba(31,62,91,.35),transparent 60%);pointer-events:none;z-index:-1}
+  .wrap{max-width:980px;margin:0 auto;padding:28px 22px 60px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:34px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand img.word{height:20px}.brand img.h{height:32px}
+  .tag{font-size:12px;letter-spacing:.22em;color:var(--sky);border:1px solid var(--line);padding:6px 12px;border-radius:999px;text-transform:uppercase}
+  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:end}
+  .kicker{color:var(--blue);letter-spacing:.35em;font-size:13px;text-transform:uppercase;margin-bottom:6px}
+  h1{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(76px,13vw,150px);line-height:.86;letter-spacing:.01em}
+  h1 span{display:block;color:transparent;-webkit-text-stroke:1.5px var(--sky)}
+  .pos{margin-top:16px;display:flex;align-items:center;gap:14px;font-size:15px;letter-spacing:.28em;text-transform:uppercase}
+  .pos b{font-family:'Bebas Neue';font-weight:400;font-size:30px;letter-spacing:.04em;color:var(--sky)}
+  .chips{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:26px}
+  .chip{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+  .chip small{display:block;color:var(--mute);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+  .chip strong{font-weight:400;font-size:18px}
+  .photo{position:relative;border-radius:22px;overflow:hidden;aspect-ratio:1096/1600;border:1px solid var(--line)}
+  .photo > img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+  .photo::after{content:"";position:absolute;left:0;right:0;bottom:0;height:24%;background:linear-gradient(180deg,transparent,rgba(14,14,14,.85))}
+  .club{position:absolute;left:16px;bottom:14px;z-index:2;display:flex;align-items:center;gap:10px}
+  .club img{height:46px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}
+  .club div{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}.club div b{display:block;color:var(--ink);font-weight:400;font-size:15px;letter-spacing:.06em}
+  section{margin-top:56px}
+  h2{font-family:'Bebas Neue';font-weight:400;font-size:34px;letter-spacing:.06em;color:var(--sky);display:flex;align-items:center;gap:14px;margin-bottom:18px}
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+  .video{border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#000;box-shadow:0 30px 80px -30px rgba(91,155,213,.35)}
+  .video video{display:block;width:100%;height:auto}
+  .vcap{display:flex;justify-content:space-between;color:var(--mute);font-size:13px;margin-top:10px;gap:10px;flex-wrap:wrap}
+  .profile{background:linear-gradient(135deg,var(--navy),#16283a);border-radius:22px;padding:28px 30px;font-size:19px;line-height:1.55}
+  .profile q{display:block;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.14);font-size:15px;color:#cfe3f6;quotes:"“" "”"}
+  .profile cite{display:block;font-style:normal;color:var(--sky);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-top:8px}
+  .strengths{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .s{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;transition:transform .25s,border-color .25s}
+  .s:hover{transform:translateY(-3px);border-color:var(--blue)}
+  .s i{font-style:normal;font-family:'Bebas Neue';font-size:28px;color:var(--blue);line-height:1}
+  .s h3{font-weight:400;font-size:17px;margin:6px 0 4px}.s p{color:var(--mute);font-size:14px}
+  .tl{position:relative;padding-left:8px}
+  .tl::before{content:"";position:absolute;left:43px;top:10px;bottom:10px;width:2px;background:linear-gradient(var(--sky),var(--navy))}
+  .t{position:relative;display:grid;grid-template-columns:72px 1fr auto;gap:18px;align-items:center;padding:14px 0;opacity:0;transform:translateX(-14px);transition:all .6s cubic-bezier(.2,.7,.2,1)}
+  .t.in{opacity:1;transform:none}
+  .crest{width:72px;height:72px;border-radius:50%;background:#10151b;border:2px solid var(--navy);display:grid;place-items:center;position:relative;z-index:1}
+  .crest img{max-width:46px;max-height:50px}
+  .t.now .crest{border-color:var(--sky);box-shadow:0 0 0 6px rgba(140,192,239,.12),0 0 28px rgba(91,155,213,.55)}
+  .t h3{font-weight:400;font-size:20px}.t p{color:var(--mute);font-size:14px}
+  .season{font-family:'Bebas Neue';font-size:24px;letter-spacing:.04em;border:1px solid var(--line);border-radius:999px;padding:4px 14px}
+  .t.now .season{background:var(--sky);color:#0e0e0e;border-color:var(--sky)}
+  .now-badge{display:inline-block;font-size:10px;letter-spacing:.2em;background:rgba(140,192,239,.15);color:var(--sky);border-radius:999px;padding:2px 8px;margin-left:8px;vertical-align:middle}
+  .contact{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:24px}
+  .contact img{height:64px}
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+  .links a{color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;transition:background .2s}
+  .links a:hover{background:var(--navy)}
+  footer{margin-top:30px;color:var(--mute);font-size:12px;text-align:center;letter-spacing:.1em}
+  @media (max-width:760px){.hero{grid-template-columns:1fr}.photo{order:-1;aspect-ratio:4/4.4}.chips{grid-template-columns:repeat(2,1fr)}.strengths{grid-template-columns:1fr 1fr}.t{grid-template-columns:60px 1fr}.t .season{grid-column:2;justify-self:start}.crest{width:60px;height:60px}.tl::before{left:37px}.contact{grid-template-columns:1fr}}
+  @media (max-width:440px){.strengths{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><img class="word" src="hundra-word.png" alt="HUNDRA"><img class="h" src="hundra-h.png" alt=""></div>
+    <span class="tag">CV deportivo · 2026/27</span>
+  </header>
+
+  <div class="hero">
+    <div>
+      <div class="kicker">Jugador Hundra Sports</div>
+      <h1>Biel<span>Estruel</span></h1>
+      <div class="pos"><b>#4</b> Defensa central · DFC</div>
+      <div class="chips">
+        <div class="chip"><small>Nacimiento</small><strong>24·02·2010</strong></div>
+        <div class="chip"><small>Pie</small><strong>Diestro</strong></div>
+        <div class="chip"><small>Altura</small><strong>184 cm</strong></div>
+        <div class="chip"><small>Peso</small><strong>78 kg</strong></div>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="photo.jpg" alt="Biel Estruel en acción">
+      <div class="club"><img src="nastic.png" alt="Gimnàstic de Tarragona"><div>Actualidad<b>Gimnàstic de Tarragona</b></div></div>
+    </div>
+  </div>
+
+  <section id="video">
+    <h2>Acciones</h2>
+    <div class="video"><video src="video.mp4" poster="poster.jpg" controls playsinline preload="metadata"></video></div>
+    <div class="vcap"><span>Biel Estruel · Gimnàstic de Tarragona · 2026/27</span><span>Dorsal 4</span></div>
+  </section>
+
+  <section>
+    <h2>Perfil</h2>
+    <div class="profile">
+      Central comunicativo y seguro con balón. Organiza la línea defensiva, se ofrece en la salida incluso bajo presión y destaca por su anticipación y su capacidad para recuperar la posición.
+    </div>
+  </section>
+
+  <section>
+    <h2>Puntos fuertes</h2>
+    <div class="strengths">
+      <div class="s"><i>01</i><h3>Liderazgo y comunicación</h3><p>Ordena y corrige a la línea; contagia actitud desde el calentamiento.</p></div>
+      <div class="s"><i>02</i><h3>Salida de balón</h3><p>Siempre disponible; no se esconde bajo presión y encuentra al pivote.</p></div>
+      <div class="s"><i>03</i><h3>Gestión de la línea</h3><p>Coordina la línea adelantada y el fuera de juego.</p></div>
+      <div class="s"><i>04</i><h3>Anticipación</h3><p>Interceptaciones, despejes de cabeza y bloqueos de disparo.</p></div>
+      <div class="s"><i>05</i><h3>Capacidad de reacción</h3><p>Recupera la posición y orienta al delantero hacia fuera.</p></div>
+      <div class="s"><i>06</i><h3>Versatilidad táctica</h3><p>Central del trío en línea de 3 y central en línea de 4.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Trayectoria</h2>
+    <div class="tl">
+      <div class="t now"><div class="crest"><img src="nastic.png" alt=""></div><div><h3>Gimnàstic de Tarragona <span class="now-badge">ACTUAL</span></h3><p>Juvenil · Preferente (Grupo 3)</p></div><span class="season">2026/27</span></div>
+      <div class="t"><div class="crest"><img src="nastic.png" alt=""></div><div><h3>Gimnàstic de Tarragona</h3><p>Cadete · División de Honor</p></div><span class="season">2025/26</span></div>
+      <div class="t"><div class="crest"><img src="nastic.png" alt=""></div><div><h3>Gimnàstic de Tarragona</h3><p>Cadete · Preferente</p></div><span class="season">2024/25</span></div>
+      <div class="t"><div class="crest"><img src="ffbr.png" alt=""></div><div><h3>Fundació Futbol Base Reus</h3><p>Infantil · División de Honor</p></div><span class="season">2023/24</span></div>
+      <div class="t"><div class="crest"><img src="ffbr.png" alt=""></div><div><h3>Fundació Futbol Base Reus</h3><p>Infantil · Primera División</p></div><span class="season">2022/23</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <div class="contact">
+      <img src="hundra-h.png" alt="Hundra">
+      <div>
+        <div style="font-size:18px">Hundra Sports · Representación y desarrollo de futbolistas</div>
+        <div style="color:var(--mute);font-size:14px">+34 746 06 09 48 · info@hundrasports.com</div>
+        <div class="links">
+          <a href="https://hundrasports.com/">hundrasports.com</a>
+          <a href="https://www.instagram.com/hundra.sports"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="vertical-align:-3px;margin-right:6px"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r=".6" fill="currentColor"/></svg>@hundra.sports</a>
+          <a href="https://wa.me/34746060948">WhatsApp</a>
+          <a href="mailto:info@hundrasports.com">Email</a>
+          <a href="CV_BIEL_ESTRUEL_2026-27.pdf" download>Descargar CV (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>HUNDRA SPORTS · DE 0 A 100 EN 365 DÍAS</footer>
+</div>
+<script>
+  const io=new IntersectionObserver(es=>es.forEach((e)=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.2});
+  document.querySelectorAll('.t').forEach((t,i)=>{t.style.transitionDelay=(i*120)+'ms';io.observe(t)});
+</script>
+</body>
+</html>
